@@ -1,0 +1,50 @@
+<div class="container">
+    <div class="numbers">
+        <div class="rows">
+        <input type="text" id="text1" [ngModel]="Input" ></div>
+        <div class="rows">
+            <button (click)="backspace()" style="width:14.5vh; color:red">back</button>
+            <button (click)="clear()" style="width:14.5vh; color:red;" >AC</button>
+        
+        </div>
+            
+        <div class="rows">
+            
+            <button (click)="writeToinput('7')">7</button>
+            <button (click)="writeToinput('8')">8</button>
+            <button (click)="writeToinput('9')">9</button>
+            <button (click)="writeToinput('*')">*</button>
+           
+             
+    
+        </div>
+    
+        <div class="rows"> 
+            <button (click)="writeToinput('4')">4</button>    
+            <button (click)="writeToinput('5')">5</button>   
+            <button (click)="writeToinput('6')">6</button>
+            <button (click)="writeToinput('/')">/</button>
+            
+        </div>
+       
+        <div class="rows">
+          <button (click)="writeToinput('1')">1</button>
+          <button (click)="writeToinput('2')">2</button>
+          <button (click)="writeToinput('3')">3</button>
+          <button (click)="writeToinput('-')">-</button>
+          
+        </div>
+       
+        <div class="rows"> 
+          <button (click)="writeToinput('0')">0</button>
+          <button (click)="writeToinput('.')">.</button>
+          <button (click)="equals()">=</button>
+          <button (click)="writeToinput('+')">+</button>
+     
+          
+          
+        </div>
+    
+    </div>
+    
+    </div>

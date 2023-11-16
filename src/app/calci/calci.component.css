@@ -1,0 +1,88 @@
+/* calci.component.css */
+.container{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    width: 100%;
+    margin: 0px;
+justify-content: center;
+align-items:center;
+
+background: linear-gradient(
+    to right, rgb(76, 177, 189),rgb(129, 103, 57),rgb(151, 151, 37)
+);
+}
+
+.inputs {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+  }
+  
+  input[type="text"] {
+    height: 20px;
+  
+    margin-right: 10px;
+    
+  }
+  
+ 
+  button:hover {
+    background-color: #f1f4f6;
+    color:#090909;
+    cursor: pointer;
+  }
+  
+  #result {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .numbers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d7940;
+    flex-wrap: wrap;
+    
+    
+    gap:10px;
+    flex-direction: column;
+    
+    
+  }
+ 
+  button
+  {
+    width:7vh;
+    height: 7vh;        
+    background-color: #090909;
+    color:#fff;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    
+    
+    
+  }
+
+ div .rows{
+display: flex;
+gap: 5px;
+  }
+
+ 
+
+  input[type="text"]{
+    width:37vh;
+    height: 35px;
+    border-radius: 5px;
+    margin-left:10px ;
+    margin-top:20px ;
+
+  }
+  .numbers .rows:last-child {
+    margin-bottom: 20px; 
+  }
